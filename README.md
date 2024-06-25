@@ -18,12 +18,12 @@ Amazon EC2 instance<br/>
    
    ![image](https://github.com/vedasree-kommindala/project_youtube/assets/114097793/046480af-c6a2-4c70-beb2-bee24b54d95b)
    
-   Commands to install updates:
-   i. sudo yum update<br/>
-  ii. sudo yum install python3-pip<br/>
- iii. sudo pip install apache-airflow<br/>
-  iv. sudo pip install pandas<br/>
-   v. sudo pip install s3fs<br/>
+   Commands to install updates:<br/>
+    &nbsp;&nbsp;&nbsp; i. sudo yum update<br/>
+    &nbsp;&nbsp;&nbsp;    ii. sudo yum install python3-pip<br/>
+    &nbsp;&nbsp;&nbsp;  iii. sudo pip install apache-airflow<br/>
+    &nbsp;&nbsp;&nbsp;   iv. sudo pip install pandas<br/>
+   &nbsp;&nbsp;&nbsp;    v. sudo pip install s3fs<br/>
 5. Developed code to fetch comments from youtube video - "Google I/O '24 in under 10 minutes" and used pandas to save the   
    data into csv file and finally into s3 bucket.
 6. Created a DAG that runs daily and copied into Airflow directory.
